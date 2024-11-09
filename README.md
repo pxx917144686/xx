@@ -13,5 +13,9 @@
       <td>002</td>
       <td><a href="https://apps.apple.com/app/id1365531024" target="_blank">1Blocker</a></td>
     </tr>
+     <tr>
+      <td>003</td>
+      <td><a href="https://apps.apple.com/app/id1387167765" target="_blank">Diarly</a></td>
+    </tr>
   </tbody>
 </table>
