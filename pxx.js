@@ -31,7 +31,6 @@ if (typeof $response == "undefined") {
     
 const list = [
   const list = [
-  { "app_name": "VidHub", "bundle_id": "com.mac.utility.media.hub", "product_id": "app.pxx917144686", "entitlements": ["premium", "Full_access_app"], "version": "1.7.12" },
   { "app_name": "Diarly", "bundle_id": "com.pureformstudio.diaryOSX", "product_id": "com.pureformstudio.diary.yearly_2022_promo", "entitlements": ["PRO"], "version": "3.18" },
   { "app_name": "1Blocker", "bundle_id": "blocker.ios.iap.lifetime", "product_id": "app.pxx917144686", "entitlements": ["premium", "Full_access_app"], "version": "5.8" },
   { "app_name": "Ereasy", "bundle_id": "background.remover.bg.eraser", "product_id": "app.pxx917144686", "entitlements": ["premium", "Full_access_app"], "version": "2.0.0" }
