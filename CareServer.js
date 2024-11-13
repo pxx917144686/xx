@@ -77,6 +77,7 @@ if (typeof $response == "undefined") {
       : $request.headers["User-Agent"].match(/^[%a-zA-Z0-9]+/)[0];
 
     const list = [
+      { "app_name": "CareServer", "bundle_id": "com.jump.ShellBoxKit", "product_id": "app.pxx917144686", "entitlements": ["PRO"], "version": "v1.21" },
       { "app_name": "Diarly", "bundle_id": "com.pureformstudio.diaryOSX", "product_id": "com.pureformstudio.diary.yearly_2022_promo", "entitlements": ["PRO"], "version": "3.18" },
       { "app_name": "1Blocker", "bundle_id": "blocker.ios.iap.lifetime", "product_id": "app.pxx917144686", "entitlements": ["premium", "Full_access_app"], "version": "5.8" },
       { "app_name": "Ereasy", "bundle_id": "background.remover.bg.eraser", "product_id": "app.pxx917144686", "entitlements": ["premium", "Full_access_app"], "version": "2.0.0" }
