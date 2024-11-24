@@ -19,3 +19,25 @@
     </tr>
   </tbody>
 </table>
+
+![Preview](./x/1.png)
+[rewrite_local] ——> //这是一个重写功能;
+
+https:\/\/api\.revenuecat\.com ——> //当这样的请求出现时，会拦截该请求;
+
+url script-response-body ——> //在拦截到响应后，使用一个脚本修改响应的内容;
+
+https://raw.githubusercontent.com/pxx917144686/xx/refs/heads/main/pxx.js ——> //这个链接是脚本的来源地址;
+
+👇
+
+[MITM]
+hostname = api.revenuecat.com
+
+——> //这是中间人攻击（MITM功能）
+
+——> //要拦截的主机名api.revenuecat.com
+
+👇
+![Preview](./x/2.png)
+
